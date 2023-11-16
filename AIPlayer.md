@@ -15,6 +15,15 @@
 - 담당 역할: 팀장, 모델링 및 서비스 개발 총괄
 ```
 
+## 🔨 개발 기술 스택
+|Stack|사용목적|
+|:---:|:---:|
+|<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">|프로그래밍 언어 / 데이터베이스|
+|<img src="https://img.shields.io/badge/tensorflow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"> <img src="https://img.shields.io/badge/keras-D00000?style=for-the-badge&logo=keras&logoColor=white">|추천 알고리즘, 이미지 생성 모델 |
+|<img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">|백엔드 / 비동기처리 개발 |
+|<img src="https://img.shields.io/badge/amazonaws-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"> <img src="https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"> <img src="https://img.shields.io/badge/ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=black"> |클라우드 / 웹서버 / OS|
+|<img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">|프로젝트&형상 관리|
+
 ## 🙋 주요 담당 업무
 
 ### 1. 플레이리스트 추천 알고리즘 개발 (AutoEncoder)
@@ -34,7 +43,7 @@
     ```
 - 모델 서빙을 위한 `추천 시스템 모듈 파일 생성`
     ```
-    ✔️ 추천 결과에서 입력값을 제외한 가장 유사한 곡과 태그를 추천하여 새로운 추천 결과 생성
+    ✔️ AutoEncoder 입력값을 제외한 가장 유사한 곡과 태그를 추천하여 새로운 추천 결과 생성
     ✔️ 곡 개수 및 유사도 적용을 통한 사용자 맞춤 추천 결과 생성
     ```
 ### 2.  썸네일 이미지 생성 모델 튜닝 (Stable Diffusion)
@@ -45,7 +54,7 @@
     ```
 - 모델 서빙을 위한 `이미지 생성 모델 모듈 파일 생성`
     ```
-    ✔️ 모델이 영어 텍스트 입력을 요구함에 따라 Googl Trans 라이브러리를 사용하여 한-영 번역 적용
+    ✔️ 모델이 영어 텍스트 입력을 요구함에 따라 Google Trans 라이브러리를 사용하여 한-영 번역 적용
     ✔️ Art Form(photography), Details(landscape, 8K uhd)를 추가한 최종 프롬프트 형태 설계
     ```
 ### 3.  백엔드 개발 (Django, MySQL, AWS)
